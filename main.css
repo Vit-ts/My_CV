@@ -2,31 +2,64 @@ footer {
   background-color: rgb(105, 135, 187);
   padding: 5px;
 }
+h3,
+h2 {
+  margin: 15px;
+  color: rgb(68, 67, 67);
+}
 
 div.main {
   font-style: Impact;
-  width: 900px;
+  width: 1200px;
   background: linear-gradient(to top right, #687c89, #6d747d);
-  display: table-cell;
   vertical-align: middle;
   position: absolute;
-  top: 50%;
+
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
 }
 
 div.left {
   float: left;
-  width: 40%;
-  height: 500px;
+  width: 30%;
+  height: 1100px;
   display: inline-block;
 }
 
 div.right {
+  background: linear-gradient(to top right, #bcbfc2, #ffffff);
   float: right;
-  width: 60%;
-  height: 500px;
+  width: 70%;
+  height: 1100px;
+  display: inline-block;
+}
+.L {
+  float: left;
+  width: 20%;
+  height: 170px;
+  display: inline-block;
+}
+
+.R {
+  float: right;
+  width: 80%;
+  height: 170px;
+  display: inline-block;
+}
+.L1 {
+  float: left;
+  width: 50%;
+  height: 270px;
+  display: inline-block;
+}
+u {
+  margin: 30px;
+}
+.R1 {
+  float: right;
+  width: 50%;
+  height: 270px;
   display: inline-block;
 }
 .list2a {
